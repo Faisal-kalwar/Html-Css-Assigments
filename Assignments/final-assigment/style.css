@@ -1,0 +1,342 @@
+.form-inline p{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.btn{
+    background-color: yellowgreen;
+    border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn:hover{
+	background-color:#328d04;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.nav-lin a i{
+	color: #FFF;
+}
+
+
+
+.navbar{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	background-color:#F4F7FF;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+	z-index: 1;
+	position: sticky;
+}
+
+.menu{
+	display: flex;
+}
+.menu li a{
+	padding: 10px 15px;
+	color:#6c707c;
+	font-size: 12px;
+	
+}
+.logo{
+	font-size: 40px;
+	font-weight: bolder;
+	color:#292929;
+	text-transform: lowercase;
+	letter-spacing: 0px;
+}
+.active a,
+.menu li a:hover{
+	background-color: whitesmoke;
+	border-bottom:rgb(228, 215, 40);
+	color:#000!important;
+	font-weight: bold;
+	transition: all ease 0.4s;
+}
+/* why us */
+.banner_image{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    text-align: center;
+    color: #fff;
+}
+.banner-content h1{
+	font-size: 60px;
+    text-transform: uppercase;
+    line-height: 38px;
+	margin-top: 60px;
+}
+.banner-content p{
+	margin-top: 60px;
+}
+.banner-button{
+	width: 200px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 11);
+	color: #000;
+	text-transform: uppercase;
+    margin-top: 30px;
+}
+.banner-button:hover{
+	background-color: #131313;
+	color: #FFF;
+    transition: all ease 0.5s;
+}
+.banner-circle-btn{
+	margin-top: 60px;
+}
+.banner-circle-btn input{
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	margin: 0 10px;
+	border-radius: 50%;
+	opacity: 0.3;
+	cursor: pointer;
+	transition: 0.2% ease-in-out;
+}
+.banner-circle-btn input:hover{
+	opacity: 0.7;
+}
+/* Advantages */
+#Advantages{
+    width: 100%;
+    height: 100vh;
+     box-sizing: border-box; /*after  */
+    font-family: calibri;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding-top: 20px;
+	/* margin-bottom: 50px; */
+
+}
+.s-heading h1{
+    font-size: 60px;
+	margin-top: 40px;
+	line-height: 38px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.s-heading h2{
+    color: rgba(249,249,249,0.40);
+    font-size:1rem;
+    margin: 0px;
+    padding: 0px; 
+}
+.s-heading{
+    text-align: center;
+    margin: 10px 0px;
+}
+.s-b-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.s-b-img{
+    width: 100%;
+    height: 70%;
+}
+.s-b-img img{
+    width: 100%;
+    height: 100%;
+}
+.s-b-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.s-box h4{
+	margin: 0px;
+    font-family: calibri;
+	text-align: center;
+
+}
+.s-b-text p{
+    margin: 0px;
+    font-size: 1.1rem;
+    font-family: calibri;
+    display: block;
+    display: -webkit-box;
+    max-width: 80%;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+
+}
+.s-b-text a:hover{
+    color: rgba(255,255,255,0.50);
+}
+.s-type{
+    font-family: calibri;
+    color: #FFFFFF;
+    background-color: #151515;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+.s-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.4s;
+}
+
+/* About us */
+#about{
+	width: 100%; 
+	height: 60vh;
+	background-color: #F4F7FF;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	margin-top: 7%;
+}
+.about-text{
+   font-family: calibari;
+   width: 50%;
+}
+.about-text h1{
+   font-size: 60px;
+   text-transform: uppercase;
+   margin: 0px;
+   padding: 0px;
+}
+.about-text p{
+   font-size: 1.2rem;
+   top: 10px; 
+}
+.about-text button{
+	width: 200px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 11);
+	color: #000;
+	text-transform: uppercase;
+    margin-top: 30px;
+}
+.about-text button:hover{
+   background-color: #131313;
+   color: #FFF;
+   transition: all ease 0.4s;
+   cursor: pointer;
+}
+
+/* services */
+#services{
+    width: 100%;
+    height: 100vh;
+     box-sizing: border-box; 
+    font-family: calibri;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding-top: 0px;
+	margin-bottom: 60px;
+
+}
+.service-content{
+    text-align: center;
+    color: #333;
+}
+.service-content h1{
+	font-size: 60px;
+    text-transform: uppercase;
+    line-height: 38px;
+	/* margin-top: 80px; */
+}
+.service-content p{
+	margin-top: 60px;
+	color: rgb(185, 182, 182);
+}
+.service-box{
+    background-color: rgb(248, 248, 248);
+    width: 350px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	position: relative;
+	margin-top: 50px;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.service-heading{
+	text-align: center;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.service-text{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service-text p{
+    margin: 0px;
+    color: #c0bdbd;
+    font-size: 1.1rem;
+    font-family: calibri;
+    display: block;
+    display: -webkit-box;
+    max-width: 80%;
+    -webkit-line-clamp: 4;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical; */
+
+}
+.service-text p a{
+	color: yellowgreen;
+}
+.service-text a:hover{
+    color: #333;
+}
+.service-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.4s;
+}
